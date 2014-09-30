@@ -50,6 +50,16 @@ endef
 
 $(eval $(call Profile,DIR615E4))
 
+define Profile/DIR615Ix
+	NAME:=D-Link DIR-615 rev. Ix
+	PACKAGES:=
+endef
+
+define Profile/DIR615Ix/Description
+	Package set optimized for the D-Link DIR-615 rev. I1.
+endef
+
+$(eval $(call Profile,DIR615Ix))
 
 define Profile/DIR825B1
 	NAME:=D-Link DIR-825 rev. B1

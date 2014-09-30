@@ -61,6 +61,7 @@ get_status_led() {
 		status_led="db120:green:status"
 		;;
 	dir-600-a1 |\
+	dir-615-i1 |\
 	dir-615-e4)
 		status_led="d-link:green:power"
 		;;
